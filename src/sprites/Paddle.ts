@@ -67,7 +67,7 @@ export class Paddle {
         if(e.code === "ArrowRight" || e.key === "ArrowRight")
         this.moveRight = true;
     };
-
+     
     // ---- Two functions above in one function
                 /*
                     handleKeyEvent = (e: KeyboardEvent): void => {
